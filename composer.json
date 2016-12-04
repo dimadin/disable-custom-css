@@ -1,0 +1,22 @@
+{
+	"name": "dimadin/disable-custom-css",
+	"description": "Disable frontend database query and Customizer section for Custom CSS..",
+	"keywords": ["custom css"],
+	"type": "wordpress-plugin",
+	"homepage": "http://blog.milandinic.com/wordpress/plugins/disable-custom-css/",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Milan Dinić",
+			"email": "milan@srpski.biz",
+			"homepage": "http://blog.milandinic.com/"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/dimadin/disable-custom-css/issues",
+		"source": "https://github.com/dimadin/disable-custom-css"
+	},
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
