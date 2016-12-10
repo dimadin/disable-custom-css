@@ -31,10 +31,10 @@ remove_action( 'wp_head', 'wp_custom_css_cb', 11 );
  * Remove Custom CSS section from the Customizer.
  *
  * @since 1.0
+ *
+ * @param WP_Customize_Manager $wp_customize WP_Customize_Manager instance.
  */
-function disable_custom_css_customize_section() {
-	if ( $GLOBALS['wp_customize'] instanceof WP_Customize_Manager ) {
-		$GLOBALS['wp_customize']->remove_section( 'custom_css' );
-	}
+function disable_custom_css_customize_section( $wp_customize ) {
+	$wp_customize->remove_section( 'custom_css' );
 }
-add_action( 'wp_loaded', 'disable_custom_css_customize_section', 11 );
+add_action( 'customize_register', 'disable_custom_css_customize_section', 20 );
