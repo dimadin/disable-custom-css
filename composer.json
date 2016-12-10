@@ -1,6 +1,6 @@
 {
 	"name": "dimadin/disable-custom-css",
-	"description": "Disable frontend database query and Customizer section for Custom CSS..",
+	"description": "Disable frontend database query and Customizer section for Custom CSS.",
 	"keywords": ["custom css"],
 	"type": "wordpress-plugin",
 	"homepage": "http://blog.milandinic.com/wordpress/plugins/disable-custom-css/",
