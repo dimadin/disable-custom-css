@@ -26,6 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 // Disable Custom CSS in the frontend head
 remove_action( 'wp_head', 'wp_custom_css_cb', 11 );
+remove_action( 'wp_head', 'wp_custom_css_cb', 101 );
 
 /**
  * Remove Custom CSS section from the Customizer.
