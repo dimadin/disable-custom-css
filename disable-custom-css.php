@@ -11,10 +11,10 @@
 
 /**
  * Plugin Name: Disable Custom CSS
- * Plugin URI:  http://blog.milandinic.com/wordpress/plugins/disable-custom-css/
+ * Plugin URI:  https://milandinic.com/wordpress/plugins/disable-custom-css/
  * Description: Disable frontend database query and Customizer section for Custom CSS.
  * Author:      Milan Dinić
- * Author URI:  http://blog.milandinic.com/
+ * Author URI:  https://milandinic.com/
  * Version:     1.1
  * Text Domain: disable-custom-css
  * Domain Path: /languages/
